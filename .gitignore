@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MacOS - hidden file is used strictly by the Mac Finder application
+.DS_Store
