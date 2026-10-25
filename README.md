@@ -31,7 +31,7 @@ We will be using a free tier of Cursor and work within the limits of our token a
 
 Give AI specific, succinct and short instructions.  It's less effective to tell AI what-not-to-do, it seems to confuse it  so provide positive actions for the AI agent (e.g. what you want it to do). 
 
-Personally, I do my thinking in pseudo code by talking out loud.  I've done this for years so it came naturally for me to use AI to develop sections of the code.  This contains the amount of thinking AI needs to do and to focus on a task.
+Personally, I do my thinking in pseudo code by talking out loud.  I've done this for years so it came naturally for me to use AI to develop sections of the code; this is decomposing your work into atomic tasks.  This contains the amount of thinking AI needs to do and to focus on one task at a time.
 
 AI doesn't seem to have a good naming convention for variables so if you have a preference, provide it. It also does not know when to use global versus local variables. Beware how the generated variables and objects interact inside your code, so you should review the code before running or checking it into a repo, amongst many other caveats when using generated AI code. 
 
@@ -60,3 +60,28 @@ __Note__:
 - AI agent can debug itself if you run into an agent issue.
 - When you edit a file but forgot the save it onto disk, the agent won't see what you've changed.  Make sure you always save your changes.
 - If you update the runtime environment such as installing a new package installation, you must reload it before it will take effect.  The AI can't see what you're doing in another terminal window.
+
+## Cursor
+
+Check out some important Cursor docs:
+
+Docs: https://cursor.com/docs
+
+Debugging: https://cursor.com/docs/agent/debug-mode
+
+Skills: https://cursor.com/docs/skills
+
+Rules: https://cursor.com/docs/rules
+
+Other interesting topics include: subagents, hooks, MCPs and other always changing new features.
+
+## Cursor & VS Code Marketplace
+
+There are skills available being written and maintained by companies and open-source projects.
+
+- Playwright Test for VSCode (Microsoft)
+- Superppowers: https://github.com/obra/superpowers
+- Security Skill: Ask another AI to generate a security skill for "OWASP Top 10 Mitigation"
+- Too many to list (search what you need when you need it)
+
+I encourage you to write your own skill to tailor to your specific needs.
